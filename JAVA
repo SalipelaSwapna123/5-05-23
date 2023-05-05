@@ -19,22 +19,28 @@ ex: dog(name,height,age(variables))(running,barking(methods))
 properties of object : variables(property) and methods(actions)*
 * a group of objects exhibiting same bahaviour(properties+actions) will come under the same group called as class
 class--> variables-->methods-->objects
-class dog
+-- class dog
 name
 age
 height
 eating(){
 }
 barking(){
-}
+}--
 3> java is  not purely object oriented language b/c it will contain primitive data types like int,float...
 purely oops means : it will contains only classes and objects ,it should not contain primitive data type(int,float,char.)
 * multiple inheritance does not exist
 JAVA VIRTUAL MACHINE(JVM):
 * This is the heart of entire java program execution process
-
-
-
+x.java-->x.class(contains byte code)it will not understand by us so jvm converts into understandabe code
+ARCHITECTURE OF JVM:
+              CLASS LOADER(class files are load into memory)
+1               2        3             4          5
+METHOS AREA     HEAP     JAVA STACK    PC REG.     NETIVE METHOD STACK
+(class code)  (objs are   (memory       (save        
+                 created)  allocation)    address)  
+     6            7
+interpreter    jit compiler(it increase the speed of execution of java program)
 
 
 
