@@ -1,1 +1,41 @@
+* java : it is a oops(object oriented programming language)
+* extension : .java
+* java is platform independent
+* jvm : converts bytes code into machine code
+* execution : .java -->x.class-->jvm(it will identify the microprocessor)
+* JVM : in that system will convert these byte code instructions into machine code which is understadable by any processor
+ex : spark and pentium
+JAVA INTRODUCTION:
+* 1990 : Sun microsystem(green project)
+* 1991 : bill joy, james gosling,mike sneradin,
+patric k naughton
+FEATURES OF JAVA:
+1> simple programming language (it works on electronic device)
+* pointers are not there in java so it become easy to understand
+* security is more
+2> java is a object oriented programming  language(it is concept of class and object)
+* object : real world existance (ex: every human being ,a book)
+ex: dog(name,height,age(variables))(running,barking(methods))
+properties of object : variables(property) and methods(actions)*
+* a group of objects exhibiting same bahaviour(properties+actions) will come under the same group called as class
+class--> variables-->methods-->objects
+class dog
+name
+age
+height
+eating(){
+}
+barking(){
+}
+3> java is  not purely object oriented language b/c it will contain primitive data types like int,float...
+purely oops means : it will contains only classes and objects ,it should not contain primitive data type(int,float,char.)
+* multiple inheritance does not exist
+JAVA VIRTUAL MACHINE(JVM):
+* This is the heart of entire java program execution process
+
+
+
+
+
+
 
